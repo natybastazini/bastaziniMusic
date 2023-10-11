@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(225,159,174);
+    background: radial-gradient(circle, rgba(225,159,174,1) 0%, rgba(255,213,219,1) 60%, rgba(246,245,241,1) 100%);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 80px;
+    gap: 20px;
+}
+
+.barraPesquisa{
+    height: 2.8rem;
+    width: 90rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 212, 219);
+    box-shadow: 4px 6px 8px #0004;
+}
+
+.barraPesquisa input{
+    border: 0 solid transparent;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+
+.barraPesquisa img{
+    width: 20px;
+    height: 20px;
+}
+
+img[alt~="icon"]{
+    width: 16rem;
+    height: 16rem;
+}
+
+img[alt~="album"]{
+    height:4rem;
+    width: 4rem;
+}
+
+img[alt~="like"]{
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.card{
+    width: 10rem;
+    height: 10rem;
+    font-size: 10px;
+    background-color: whitesmoke;
+    color: #e66583;
+    border-radius: 8px;
+    box-shadow: 2px 6px 8px #0004;
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
