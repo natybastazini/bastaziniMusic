@@ -51,6 +51,8 @@ img[alt~="logo"] {
 /* Editando "corpo" */
 
 body{
+    height: 100vh;
+    width: 100vw;
     background-color: #f5f5f5;
 }
 
@@ -92,6 +94,8 @@ body{
     color: white;
 }
 
+
+
 img[alt~="albumText"]{
     height: 8.2rem;  
 }
@@ -123,3 +127,4 @@ img[alt~="logoBiblioteca"]{
     text-decoration: none;
     color: white;
 }
+
